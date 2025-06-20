@@ -71,7 +71,7 @@ COMMIT_MSG=$(echo "$RESPONSE" | sed 's/^"//;s/"$//')
 print_info "\nSugestão de mensagem:"
 echo -e "\n\"$COMMIT_MSG\"\n"
 
-read -p "Deseja aplicar esta mensagem, fazer add, commit e push? (s/n): " confirm_final
+read -p "Deseja aplicar esta mensagem, commit e push? (s/n): " confirm_final
 if [[ "$confirm_final" != "s" ]]; then
   print_warn "Operação cancelada."
   exit 0
