@@ -1,7 +1,7 @@
 #!/bin/bash
 
 OLLAMA_API="http://localhost:11434/api/generate"
-MODEL="llama2"
+MODEL="llama3"
 MAX_DIFF_LENGTH=4000
 PROMPT_FILE="prompt.txt"
 
